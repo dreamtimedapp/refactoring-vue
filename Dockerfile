@@ -6,7 +6,7 @@ ENV HOME=/home/refactoring
 
 WORKDIR $HOME
 
-RUN npm install
+RUN npm install --save 
 RUN npm install -g nodemon
 ADD . ./
 
